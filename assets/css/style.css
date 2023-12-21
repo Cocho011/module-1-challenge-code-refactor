@@ -11,25 +11,25 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* set background color of header, add spaceing, and make text white */
+/* set background color of header, add spacing, and made text white */
 header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* no changes made */
+/* removed . and added > to include everything inside h1 */
 header > h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* no changes made */
+/* removed .header h1 .seo to make it a little cleaner */
 header span {
     color: #d9dcd6;
 }
 
-/* no changes made */
+/* changed .header div to nav to group together content including navigation links */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,12 +38,12 @@ nav {
     font-size: 20px;
 }
 
-/* no changes made */
+/* revised to ensure that ul was grouped in nav and not .header div that was removed */
 nav ul {
     list-style-type: none;
 }
 
-/* no changes made */
+/* changed .header div to nav to ensure all content within ul, including li, was grouped together */
 nav > ul > li {
     display: inline-block;
     margin-left: 25px;
@@ -55,11 +55,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-/* styles for <img> elements -- no changes made */
 .hero {
     height: 800px;
     width: 100%;
@@ -88,8 +83,7 @@ p {
     margin-left: 20px;
 }
 
-
-/* consolidated search-engine-optimization, online-reputation-management, social-media-marketing */
+/* consolidated search-engine-optimization, online-reputation-management, social-media-marketing into one content section */
 .content > section {
     margin-bottom: 20px;
     padding: 50px;
@@ -118,23 +112,13 @@ p {
     color: #ffffff;
 } */
 
-/* consolidated search-engine-optimization, online-reputation-management, social-media-marketing img*/
-.content img{
+/*consolidated search-engine-optimization, online-reputation-management, social-media-marketing img*/
+.content img {
     max-height: 200px;
 }
- /* 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
 
 /* consolidated search-engine-optimization, online-reputation-management, social-media-marketing h2 */
-.search-engine-optimization h2, 
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -149,6 +133,10 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 } */
+
+p {
+    font-size: 16px;
+}
 
 /* no changes made */
 .benefits {
