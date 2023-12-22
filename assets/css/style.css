@@ -134,11 +134,7 @@ a {
     font-size: 36px;
 } */
 
-p {
-    font-size: 16px;
-}
-
-/* no changes made */
+/* when leaving .benefits part as is, the h3 headers would not space appropriately. If I tried to include the entire contents of the benefits div, the entire block would move down to the bottom of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -150,10 +146,13 @@ p {
     background-color: #2589bd;
 }
 
-/* consolidated lead, brand and cost into one class */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+/* added .benefits section because I was unable to get the spacing to work properly with just the top details. When I tried to include everything within the .benefits (above). */
+.benefits section {
+    margin:20px;
+}
+
+/* consolidated lead generation, brand awareness and cost management into one class */
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -168,9 +167,7 @@ p {
 }*/
 
 /* consolidated lead, brand and cost h3 into one class */
-.benefit-lead h3,
-.benefit-brand h3, 
-.benefit-cost h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -187,9 +184,7 @@ p {
 } */
 
 /* consolidated lead, brand and cost img into one class */
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -208,15 +203,18 @@ p {
     max-width: 150px;
 } */
 
+p {
+    font-size: 16px;
+}
 
-/* deleted font-family since it's included in body) */
-.footer {
+/* deleted font-family since it's included in body and . since it was not necessary to find footer */
+footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
-/* no changes made */
-.footer h2 {
+/* removed . from footer since it was not necessary */
+footer h2 {
     font-size: 20px;
 }
