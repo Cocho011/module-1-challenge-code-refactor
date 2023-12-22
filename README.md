@@ -8,3 +8,4 @@ Screenshot path: module-1-challenge-code-refactor\assets\images\module.1.challen
 
 Deployed application: https://cocho011.github.io/module-1-challenge-code-refactor/
 
+Note: application links all function correctly. HTML and CSS properties are consolidated and organized in a semantic structure. Commit messages have been added to repo and comments have been added to HTML and CSS files. 
