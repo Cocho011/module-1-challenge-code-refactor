@@ -52,7 +52,7 @@ nav > ul > li {
 /* no changes made */
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; <img src="./assets/images/lead-generation.png" alt="lead/profit generation icon"/> <!-- added alt text for accessibility -->
 }
 
 .hero {
